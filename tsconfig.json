@@ -22,7 +22,8 @@
       "es2018", 
       "dom"
     ],
-    "useDefineForClassFields": false
+    "useDefineForClassFields": false,
+    "types": ["dom-mediacapture-record"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

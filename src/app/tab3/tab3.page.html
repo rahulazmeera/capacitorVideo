@@ -12,6 +12,12 @@
       <ion-title size="large">Tab 3</ion-title>
     </ion-toolbar>
   </ion-header>
+  
+  <ion-button (click)="takePicture()">Take Picture</ion-button>
+  {{newImage}} image URL
 
+  <ion-img
+  src="{{newImage}}"
+></ion-img>
   <app-explore-container name="Tab 3 page"></app-explore-container>
 </ion-content>

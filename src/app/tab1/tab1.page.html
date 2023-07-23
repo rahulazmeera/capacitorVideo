@@ -12,6 +12,43 @@
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-button (click)="captureMedia()">record video</ion-button>
+  <!-- <ion-button (click)="playVideo()">play video</ion-button> -->
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-button (click)="captureVideo()">capture video</ion-button>
+  <!-- <h1>{{video}}</h1> -->
+  <h1>{{fullPath}}</h1>
+  <h1>{{localpath}}</h1>
+  <a>{{localpath}}</a>
+
+
+  <ion-list>
+    <ion-item *ngFor="let file of mediaFiles" tappable (click)="playVideo(file)" text-wrap>
+      <!-- {{file.localURL}} -->
+      {{mediaFiles.length}}
+      {{file.name}}
+
+      <p>{{file.size /1000 /1000 | number}} mb</p>
+
+
+    <!-- <video width="100%" controls>
+    <source src="{{file.localURL}}" type="video/mp4">
+  </video>  -->
+    </ion-item>
+  </ion-list>
+
+  <!-- plays in web perfectly
+  <video width="100%" controls autoplay>
+    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+  </video>
+   <a>fullPath</a> -->
+   <!-- <video   controls autoplay #myvideo>
+    <source src="fullpath" type="video/mp4"> -->
+  <!-- </video>  -->
+ 
+   <ion-button (click)="capacitorPlayVideo(fullPath)">capacitorPlayVideo()</ion-button>
+   <div id="vplayer" slot="fixed"></div>
+   
+   <!-- <ion-button (click)="startVideo()">Start Video</ion-button> -->
+  
 </ion-content>

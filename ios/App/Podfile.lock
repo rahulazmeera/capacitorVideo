@@ -1,0 +1,69 @@
+PODS:
+  - Capacitor (5.0.5):
+    - CapacitorCordova
+  - CapacitorApp (5.0.3):
+    - Capacitor
+  - CapacitorCamera (5.0.4):
+    - Capacitor
+  - CapacitorCordova (5.0.5)
+  - CapacitorHaptics (5.0.4):
+    - Capacitor
+  - CapacitorKeyboard (5.0.4):
+    - Capacitor
+  - CapacitorStatusBar (5.0.4):
+    - Capacitor
+  - CapacitorVideoPlayer (5.0.1):
+    - Capacitor
+  - CordovaPlugins (5.0.5):
+    - CapacitorCordova
+  - CordovaPluginsResources (0.0.105)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorCamera (from `../../node_modules/@capacitor/camera`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
+  - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - CapacitorVideoPlayer (from `../../node_modules/capacitor-video-player`)
+  - CordovaPlugins (from `../capacitor-cordova-ios-plugins`)
+  - CordovaPluginsResources (from `../capacitor-cordova-ios-plugins`)
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorCamera:
+    :path: "../../node_modules/@capacitor/camera"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorHaptics:
+    :path: "../../node_modules/@capacitor/haptics"
+  CapacitorKeyboard:
+    :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorStatusBar:
+    :path: "../../node_modules/@capacitor/status-bar"
+  CapacitorVideoPlayer:
+    :path: "../../node_modules/capacitor-video-player"
+  CordovaPlugins:
+    :path: "../capacitor-cordova-ios-plugins"
+  CordovaPluginsResources:
+    :path: "../capacitor-cordova-ios-plugins"
+
+SPEC CHECKSUMS:
+  Capacitor: b1248915663add1bd6567e2b67c1c1fa3abcf5e8
+  CapacitorApp: 7a5dec8b33573707164b293475d5c89ba684364a
+  CapacitorCamera: 9b5c8e809c1042f263994f97ba846aa37e974f12
+  CapacitorCordova: f8c06b897c74ee8f7701fe10e6443b40822bc83a
+  CapacitorHaptics: e36653b37326d71bb35ae42b944124037dbc3d97
+  CapacitorKeyboard: d1b25fde6f19744ad09c890862aefc6e2a7ded3d
+  CapacitorStatusBar: 190e0321b8734f4244d0c81baa183a00d5806ddf
+  CapacitorVideoPlayer: 442d83d74374f2f0442b17b2ebeffd2c57a11012
+  CordovaPlugins: 9239cdd7eca7ee76a54ee0abe55a8cf8bec566c4
+  CordovaPluginsResources: 1b3992e05cb6336d2850cd77dd5e3054f2f76f96
+
+PODFILE CHECKSUM: c8340d3f5fd48b39a456ef63a72a3f3a6c790c95
+
+COCOAPODS: 1.12.0
